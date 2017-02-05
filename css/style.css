@@ -48,6 +48,7 @@
 		height: 50%;
 		background-color: black;
 		display: flex;
+		margin: a
 	}
 	
 	.right {
@@ -84,6 +85,18 @@
 	img {
 		max-width: 100%;
 	}
+	.menu {
+	
+	width: 10%;
+	padding: 2%;
+	margin: auto;
+
+}
+	ul {
+
+		display: hidden;
+	}
+
 }
 
 @media only screen and (max-width: 1024px)  {
@@ -92,20 +105,29 @@
 		min-width: 100%
 	}
 }
+@media only screen and (min-width: 737px )  {
 
+	.menu {
+		display: none;
+
+
+
+}
 
 
  .left {
-
+ 	float: right;
  	width: 40%;
- 	
+ 	margin: auto;
+
  }
 
  .right {
 
- 	width: 60%;
+ 	width: 30%;
  	color: white;
-margin: auto;
+	margin: auto;
+	text-align: center;
  	
 
  }
@@ -145,5 +167,24 @@ overflow: hidden;
 	height: 100px;
 	background-color: rgb(12, 12, 12);
 
-
 }
+
+
+.menu {
+	width: 10%;
+	padding: 2%;
+	margin: auto;
+}
+
+ul li {
+		
+		color: white;
+		display: inline-block;
+		}
+
+ul {
+	word-spacing: 30px;
+}
+
+
+
