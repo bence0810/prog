@@ -33,7 +33,7 @@
  	background-color: black;
  }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width : 500px) {
 	
 	.first {
 		flex-direction: column;
@@ -76,7 +76,7 @@
 @media only screen and (max-width: 1024px)  {
 
 	.theBox {
-		min-width: 100%;
+		min-width: 100%
 	}
 }
 
