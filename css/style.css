@@ -48,7 +48,8 @@
 		height: 50%;
 		background-color: black;
 		display: flex;
-		margin: a
+		margin: auto;
+		opacity: 1;
 	}
 	
 	.right {
@@ -58,6 +59,8 @@
 		text-align: center;
 		margin: auto;
 		color: white;
+		display: flex;
+    	flex-direction: column;
 
 	}
  	
@@ -86,48 +89,121 @@
 		max-width: 100%;
 	}
 	.menu {
+	height: 40px;
+	width: 40px;
 	
-	width: 10%;
-	padding: 2%;
 	margin: auto;
 
-}
+	}
 	ul {
-
-		display: hidden;
+		margin: auto;
+		display: none;
 	}
 
+	ul {
+	word-spacing: 30px;
+	}
+
+	ul {
+	  display: inline;
+	  margin: 0;
+	  padding: 0;
+	}
+	
+	ul li {
+		display: inline-block;
+	}
+	
+	ul li:hover {
+		background: #555;
+	}
+	
+	ul li:hover ul {
+		display: block;
+	}
+	
+	ul li ul {
+	  position: absolute;
+	  width: 200px;
+	  display: none;
+	}
+	
+	ul li ul li { 
+	  background: #555; 
+	  display: block; 
+	}
+	
+	ul li ul li a {
+		display:block !important;
+	} 
+	
+	ul li ul li:hover {
+		background: #666;
+	}
+	
+	div a {
+	    text-decoration: none;
+	    color: white;
+	    font-size: 20px;
+	    padding: 15px;
+	    display:inline-block;
+	    text-align: center;
+    	font-family: helvetica;
+	}
+
+ol,
+ ul {
+
+	margin: auto;
 }
+
+	li {
+
+
+
+
+	}
+
+
+}
+
+
 
 @media only screen and (max-width: 1024px)  {
 
 	.theBox {
-		min-width: 100%
+		min-width: 100%;
+		
+	}
+	ul {
+		word-spacing: 30px;
+
 	}
 }
 @media only screen and (min-width: 737px )  {
 
 	.menu {
+
 		display: none;
-
-
-
 }
+
+	.current {
+		display: flex;
+	}
 
 
  .left {
- 	float: right;
- 	width: 40%;
+ 	
  	margin: auto;
 
  }
 
  .right {
 
- 	width: 30%;
- 	color: white;
+ 	word-spacing: 32px;
+
 	margin: auto;
-	text-align: center;
+	
  	
 
  }
@@ -178,13 +254,35 @@ overflow: hidden;
 
 ul li {
 		
-		color: white;
-		display: inline-block;
-		}
+	display: inline-block;
+	
+	}
 
-ul {
-	word-spacing: 30px;
-}
+ul li:hover {
+		
+	
+	
+	}
+
+ul li ul li:hover {
+	
+		background: #191919;
+	
+	}
+
+
+div a {
+	    text-decoration: none;
+	    color: #2f2f2f;
+	    font-size: 20px;
+	    padding: 15px;
+	    display:inline-block;
+	    text-align: center;
+    	font-family: helvetica;
+	}
+
+
+
 
 
 
