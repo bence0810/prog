@@ -40,6 +40,7 @@
 		height: 201px;
 		position: relative;
 		margin: auto;
+		opacity: 1;
 	}
 
 	
@@ -61,6 +62,7 @@
 		color: white;
 		display: flex;
     	flex-direction: column;
+
 
 	}
  	
@@ -100,9 +102,7 @@
 		display: none;
 	}
 
-	ul {
-	word-spacing: 30px;
-	}
+	
 
 	ul {
 	  display: inline;
@@ -110,9 +110,7 @@
 	  padding: 0;
 	}
 	
-	ul li {
-		display: inline-block;
-	}
+	
 	
 	ul li:hover {
 		background: #555;
@@ -123,8 +121,8 @@
 	}
 	
 	ul li ul {
-	  position: absolute;
-	  width: 200px;
+	  position: fixed;
+	  width: 100%;
 	  display: none;
 	}
 	
@@ -175,10 +173,7 @@ ol,
 		min-width: 100%;
 		
 	}
-	ul {
-		word-spacing: 30px;
-
-	}
+	
 }
 @media only screen and (min-width: 737px )  {
 
@@ -259,7 +254,7 @@ ul li {
 	}
 
 ul li:hover {
-		
+		color: white;
 	
 	
 	}
@@ -281,7 +276,10 @@ div a {
     	font-family: helvetica;
 	}
 
+.current:hover {
 
+	color: white;
+}
 
 
 
