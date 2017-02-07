@@ -1,0 +1,129 @@
+img {
+	max-width: 100%;
+}
+
+.main-container {
+	width: 90%;
+	margin: auto;
+	background-color: grey;
+ 
+
+}
+@media only screen and (min-width: 800px) {
+ 	.main-container {
+ 		width: 90%;
+
+ 	}
+}
+.section-one {
+width: 100%;
+display: flex;
+
+}
+
+.section-one-left {
+display: flex;
+height: 400px;
+width: 80%;
+background-color: green;
+
+
+}
+
+.section-one-right {
+width: 20%;
+height: 400px;
+background-color: red;
+
+}
+
+.section-two {
+
+display: flex;
+width: 100%;
+
+}
+
+.section-two-left {
+
+width: 40%;
+
+}
+
+.section-two-top {
+
+	height: 400px;
+	background-color: blue;
+
+}
+
+.section-two-bottom {
+
+	height: 400px;
+	background-color: yellow;
+
+}
+
+.section-two-right {
+
+	width: 60%;
+
+}
+
+.section-two-right-top {
+ display: flex;
+
+
+}
+
+.section-two-right-topleft {
+width: 100%;
+height: 400px;
+background-color: pink
+}
+
+.section-two-right-topright {
+width: 100%;
+height: 400px;
+background-color: brown;
+}
+
+
+
+
+
+
+
+
+.section-two-right-bottom{
+
+	display: flex;
+	flex-direction: column;
+
+}
+
+.section-two-right-bottomtop {
+
+	width: 100%;
+	height: 200px;
+	background-color: orange;
+	
+}
+
+.section-two-right-bottombottom {
+
+	width: 100%;
+	height: 200px;
+	background-color: blue;
+}
+
+
+
+
+
+
+
+
+
+
+
