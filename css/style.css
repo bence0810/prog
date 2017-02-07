@@ -123,9 +123,10 @@
 	}
 	
 	ul li ul {
-	  position: fixed;
-	  width: 100%;
-	  display: none;
+	      position: absolute;
+    width: 100%;
+    display: none;
+    z-index: 1;
 	}
 	
 	ul li ul li { 
@@ -170,6 +171,7 @@ ol,
 	position: absolute;
 	width: 100%;
 	margin-top: 25%;
+	z-index: 1;
 }
 
 .display-left {
@@ -291,7 +293,7 @@ overflow: hidden;
 }
 
 .arow {
-	
+	z-index: 1;
 	display: flex;
 	position: absolute;
 	width: 100%;
