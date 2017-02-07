@@ -33,8 +33,7 @@
  	background-color: black;
  }
 
-@media only screen and (max-width : 736px) 
-and (min-width: 320px ) {
+@media only screen and (max-width : 736px) and (min-width: 320px ) {
 	
 	.first {
 		flex-direction: column;
@@ -68,7 +67,7 @@ and (min-width: 320px ) {
 	}
 
 	.third {
-		display: flex;
+		
 		width: 100%;
 		background-color: #191919;
 	}
@@ -170,26 +169,35 @@ ol,
 	display: flex;
 	position: absolute;
 	width: 100%;
-	height: 43%;
+	margin-top: 25%;
 }
 
 .display-left {
-color: white;
-margin: auto;
-		width: 80%;
+	color: white;
+	margin: auto;
+	border-radius: 15%;
+	padding: 20px;
+   	margin-left: 0%;
+    background-color: gray;
 }
 
 .display-right {
-color: white;
-margin: auto;
+	color: white;
+	margin: auto;
+	padding: 20px;
+	    
+    margin-right:0%;
+    background-color: gray;
+        border-radius: 15%;
 }	.main {
 
-
+max-height: 100%;
 	}
 	.second {
 		flex-direction: column;
 	display: flex;
 	width: 100%;
+	
 	}
 
 	.left2 {
@@ -284,17 +292,31 @@ overflow: hidden;
 	display: flex;
 	position: absolute;
 	width: 100%;
+	margin-top: 30%;
 	}
 
 .display-left {
 color: white;
 margin: auto;
-		width: 80%;
+		padding-left: 0%;
+
+padding: 20px;
+    
+    /* margin-right: 0%; */
+    background-color: gray;
+        border-radius: 15%;
+        padding-left: 0%;
 }
 
 .display-right {
 color: white;
 margin: auto;
+
+padding: 20px;
+    
+    /* margin-right: 0%; */
+    background-color: gray;
+        border-radius: 15%;
 }
 
 
