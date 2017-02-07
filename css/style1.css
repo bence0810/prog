@@ -176,28 +176,25 @@ ol,
 	color: white;
 	margin: auto;
 	border-radius: 15%;
-	padding: 3%;
+	padding: 20px;
    	margin-left: 0%;
     background-color: gray;
-    opacity: 0.6;
 }
 
 .display-right {
 	color: white;
 	margin: auto;
-	padding: 3%;
-	opacity: 0.6;    
+	padding: 20px;
+	    
     margin-right:0%;
     background-color: gray;
         border-radius: 15%;
 }	.main {
-		position: absolute;
-		max-height: 100%;
-	}
-	
 
+max-height: 100%;
+	}
 	.second {
-	flex-direction: column;
+		flex-direction: column;
 	display: flex;
 	width: 100%;
 	
@@ -303,24 +300,23 @@ color: white;
 margin: auto;
 		padding-left: 0%;
 
-padding: 3%;
-    opacity: 0.6;
-  
+padding: 20px;
+    
+    /* margin-right: 0%; */
     background-color: gray;
         border-radius: 15%;
-        margin-left: 0%;
+        padding-left: 0%;
 }
 
 .display-right {
 color: white;
 margin: auto;
 
-padding: 3%;
+padding: 20px;
     
-   opacity: 0.6;
+    /* margin-right: 0%; */
     background-color: gray;
         border-radius: 15%;
-        margin-right: 0%;
 }
 
 
