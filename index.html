@@ -60,11 +60,45 @@
 			
 			<div class="main">
 				
-				<img src="css/images/background1.png">
+			<img class="mySlides" src="css/images/background1.png"
+			style="display: block;">
 
-			</div>
 
-		</div>
+
+ <img class="mySlides" src="css/images/background2.jpg" style="display: block;">
+  <img class="mySlides" src="css/images/background3.jpg" style="display: none;">
+  <img class="mySlides" src="css/images/background4.jpg" style="display: none;">
+  <img class="mySlides" src="css/images/background5.jpg" style="display: none;">
+
+</div>
+<div class="arow">
+  
+  <div class="display-left" onclick="plusDivs(-1)">❮</div>
+  <div class="display-right" onclick="plusDivs(1)">❯</div>
+  </div>
+<script>
+var slideIndex = 1;
+showDivs(slideIndex);
+
+function plusDivs(n) {
+  showDivs(slideIndex += n);
+}
+
+function showDivs(n) {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  if (n > x.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = x.length}
+  for (i = 0; i < x.length; i++) {
+     x[i].style.display = "none";  
+  }
+  x[slideIndex-1].style.display = "block";  
+}
+</script>
+
+
+
+
 
 	<!-- 3 -->
 
