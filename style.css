@@ -191,11 +191,13 @@ ol,
     background-color: gray;
         border-radius: 15%;
 }	.main {
-
-max-height: 100%;
+		position: absolute;
+		max-height: 100%;
 	}
+	
+
 	.second {
-		flex-direction: column;
+	flex-direction: column;
 	display: flex;
 	width: 100%;
 	
