@@ -335,7 +335,7 @@ max-width: 100%;
 background-color: black;
 overflow: scroll;
 /*position: absolute;*/
-height: 700px;
+/*height: 700px;*/
 /*display: flex;*/
 
 
@@ -385,7 +385,7 @@ padding: 3%;
 ul li {
 		
 	display: inline-block;
-	margin: 5px;
+	margin: 10px;
 	}
 
 ul li:hover {
