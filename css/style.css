@@ -24,7 +24,24 @@
  	margin: auto;
 }
  
+ h1 {
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	line-height: 26.4px;
+}
 
+h2 {
+
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: lighter;
+	line-height: 26.4px;
+}
 @media only screen and (max-width : 799px) and (min-width: 320px ) {
 	
 	.first {
@@ -283,10 +300,10 @@ ol,
 max-width: 100%;
 /*height: auto;*/
 background-color: black;
-/*overflow: hidden;*/
+overflow: scroll;
 /*position: absolute;*/
 height: 700px;
-display: flex;
+/*display: flex;*/
 
 
 }
@@ -397,6 +414,26 @@ margin-left: 10%;
 width: 24%;
 }
 
+.product {
+	
+	position: absolute;
+	display: flex;
+	width: 100%;
+
+}
+
+
+.prod {
+
+	width: 100%;
+	height: 800px;
+	background-color: black;
+	opacity: 0.7;
+	margin: auto;
+	margin-top: 99px;
+
+}
+
 .textbox {
 	
 	position: absolute;
@@ -408,15 +445,19 @@ width: 24%;
 
 .text {
 
-	width: 700px;
-	height: 500px;
+	width: 900px;
+	height: 400px;
 	background-color: black;
 	opacity: 0.7;
 	margin: auto;
 	margin-top: 150px;
-
+	padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    padding-top: 10%;
+    color: white;
+    flex-direction: column;
+    overflow: scroll;
 }
-
-
 
 
